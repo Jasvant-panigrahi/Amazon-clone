@@ -64,6 +64,12 @@ It recreates the modern Amazon interface including:
 
 ---
 
+## 🔗 Connect With Me  
+
+- 📸 Instagram: **https://www.instagram.com/Jasvant_panigrahi_**  
+
+---
+
 ## 🧑‍💻 Author  
 **Jasvant Panigrahi**  
 - Frontend Developer  
