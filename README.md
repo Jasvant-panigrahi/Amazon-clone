@@ -13,14 +13,14 @@
 ---
 
 ## ⭐ Overview  
-This is a fully responsive **Amazon UI Clone** built using pure **HTML, CSS, and JavaScript**.  
+This is a fully responsive **Amazon UI Clone** built using pure **HTML and CSS**.  
 It recreates the modern Amazon interface including:
 
 - Navigation menu  
 - Search bar  
 - Category panel  
 - Product cards  
-- Horizontal scrolling sliders with arrows  
+- Horizontal scrolling sliders
 - Footer with realistic layout  
 - Signature “Made by Jasvant” at the bottom-right  
 
