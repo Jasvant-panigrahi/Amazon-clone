@@ -13,7 +13,7 @@
 ---
 
 ## ⭐ Overview  
-This is a fully responsive **Amazon UI Clone** built using pure **HTML and CSS**.  
+This is a fully responsive **Amazon UI Clone** built using pure **HTML** and **CSS**.  
 It recreates the modern Amazon interface including:
 
 - Navigation menu  
