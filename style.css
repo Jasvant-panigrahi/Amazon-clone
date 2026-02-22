@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/** navbar **/
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(/photos/amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.75rem;
+    font-weight: 100;
+}
+
+.nav-second {
+    font-size: 15px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-left: 25px;
+    width: 600px;
+    height: 40px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 30px;
+}
+
+.nav-search:hover {
+    border: 2px solid #febd68;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    height: 40px;
+    width: 70px;
+    padding: 0 0 0 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 2px solid #febd68;
+    outline: none;
+}
+
+.search-input {
+    margin-left: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 60px;
+    height: 40px;
+    background-color: #febd68;
+    color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+span {
+    font-size: 0.75rem;
+}
+
+.nav-cart {
+    font-size: 0.7rem;
+}
+
+.nav-cart i {
+    font-size: 1.6rem;
+}
+
+/* Bottom panel Amazon style */
+.bottom-panel {
+    height: 40px;
+    background-color: #222f3d;   /* Amazon dark blue */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Left "All" menu */
+.panel-alt {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Menu items */
+.panel-options {
+    display: flex;
+    align-items: center;
+    gap: 20px;   /* space between each item */
+    margin-left: 25px;
+    font-size: 0.83rem;
+    white-space: nowrap;
+}
+
+.panel-options p {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.panel-options p:hover {
+    text-decoration: underline;
+}
+
+/** hero sectrion **/
+.hero-section {
+    background-image: url('/photos/hero_image.jpg');
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+    border-radius: 30px;
+}
+
+.hero-msg a {
+    text-decoration: none;
+    color: #007185;
+}
+
+/** shop section **/
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    padding-bottom: 20px;
+}
+
+.box {
+    border-radius: 10px;
+    height: 410px;
+    width: 23%;
+    background-color: white;
+    padding: 15px 0px 15px;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.box-img {
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+    font-size: 14px;
+}
+
+/** footer **/
+.foot-panel1 {
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+ul li,
+li a {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+
+li a {
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.foot-panel3 {
+    border-top: 0.5px solid gray;
+    height: 70px;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-panel3 .logo {
+    background-image: url(/photos/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4 {
+    background-color: #131A22;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pages a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 5px;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+/* Horizontal Scroll Row */
+.scroll-row {
+    /*background-color: #ffffff;*/ 
+    background-color: white; 
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.scroll-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+.scroll-container img {
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.scroll-container img:hover {
+    transform: scale(1.05);
+}
+
+.scroll-container {
+    background-color: white;   /* inner background (white box) */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+body {
+    background-color: #e2e7e6;
+}
+
+footer {
+    position: relative; /* allows absolute positioning inside */
+}
+
+.made-by {
+    position: absolute;
+    right: 20px;     /* distance from right */
+    bottom: 10px;    /* distance from bottom */
+    
+    font-family: 'Great Vibes', cursive;
+    font-size: 26px;
+    color: #e2e7e6;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    opacity: 0.9;
+}
