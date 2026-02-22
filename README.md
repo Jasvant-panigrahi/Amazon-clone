@@ -66,7 +66,8 @@ It recreates the modern Amazon interface including:
 
 ## 🔗 Connect With Me  
 
-- 📸 Instagram: **https://www.instagram.com/Jasvant_panigrahi_**  
+- 📸 Instagram: **https://www.instagram.com/Jasvant_panigrahi_**
+- 📧 Gmail: **jasvantpanigrahi22@gmail.com**
 
 ---
 
