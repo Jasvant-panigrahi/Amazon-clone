@@ -53,28 +53,11 @@ It recreates the modern Amazon interface including:
 |-----------|---------|
 | **HTML5** | Structure of UI |
 | **CSS3** | Styling, layout, responsiveness |
-| **JavaScript** | Scroll arrows & interactions |
 | **Google Fonts** | Custom signature font |
 | **Netlify** | Deployment |
 
 ---
 
-## 📸 Screenshots  
-(Add your images in a `/screenshots` folder)
-
-```
-![Home Screenshot](screenshots/home.png)
-```
-
-```
-![Products](screenshots/products.png)
-```
-
-```
-![Slider Section](screenshots/slider.png)
-```
-
----
 
 ## 🌐 Live Website  
 🔥 **Visit Now → https://amazon-colne-jasvant.netlify.app/**  
